@@ -1,0 +1,244 @@
+* {
+    box-sizing: border-box; /* all elements include border and padding in size */
+}
+
+body {
+    color: #535353;
+    font-family: 'Open Sans', sans-serif;
+    margin: 8px;
+}
+
+h1, h2 {
+    color: #7a0b26;
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: 900;
+}
+
+h1 {
+    font-family: 'Helvetica', sans-serif;
+    color: white;
+    background-color: rgb(201, 77, 77);
+    padding: 0.5em 0.5em;
+}
+
+nav {
+    background-color: rgb(245, 150, 150);
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+}
+
+nav .nav-item {
+    color: black;
+    text-decoration:none;
+    font-size:larger;
+    font-weight: bold;
+}
+nav li:hover {
+    color: #b7a57a;
+    border-bottom: .6rem solid #b7a57a;
+}
+
+.nav-element {
+    display:inline-block;
+    padding-top: 2.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+img#logo {
+    object-fit: contain;
+    height: 100px;
+    width:100px;
+    padding-left: 2rem;
+}
+
+.submission {
+    display: flex;
+    width:auto;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+form.submit-journey {
+    border: 5px solid gray;
+    padding: 2rem;
+}
+
+form.submit-journey div{
+    padding: 0.5rem;
+}
+
+footer {
+    text-align: center;
+}
+
+.journey-cards {
+    display: flex;
+    border: 5px solid gray;
+    justify-content: flex-end;
+    margin: 1rem 0;
+    padding: .5rem 1rem;
+    background-color: rgb(243, 196, 196);
+}
+
+.journey-cards p {
+    text-align: center;
+}
+
+.journey-cards a{
+    text-align:right;
+    font-size: 12px;
+    padding-right: 1rem;
+}
+
+.view{
+    text-align: center;
+    font-size: 15px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: 1;
+    overflow-y:hidden;
+}
+
+.card{
+    flex-basis: 21%;
+    background-color: white;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16), 0 1px 3px rgba(0, 0, 0, 0.23);
+    justify-content: space-between;
+}
+
+.card img{
+    border-radius: 10px 10px 0px 0px;
+}
+
+p.card-text {
+    margin-top: 0;
+    margin-bottom: 0.3rem;
+    margin-left: 0.3rem;
+}
+
+/* About page's css */
+.aboutpage {
+    background-image: url("petbackground.jpeg");
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
+    font-size: 25px;
+}
+
+.title-details {
+    background:none;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+.toptext {
+    background:rgb(201, 77, 77);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.bottomtext {
+    background:rgb(245, 150, 150);
+    color: #7a0b26;
+    padding: 20px;
+    text-align: center;
+}
+
+/*media query for smaller screens.*/
+@media (min-width: 301px) and (max-width: 768px) {
+    .card{
+        flex: 1 0 45%;
+    }
+
+    h1, h2 {
+        padding: .5rem;
+        text-align: center;
+    }
+
+    .search-and-filter {
+        padding-left: 1.5rem;
+    }
+
+    .aboutpage {
+        font-size: 27px;
+    }
+
+    .bottomtext, .toptext {
+        font-size: 18px;
+    }
+
+    .card-img-top{
+        display:flex;
+        flex: 1 0 50%;
+    }
+}
+
+/*There're also smaller screens that the above queries displayed will also
+be distorted so we put media query based for extra small screens.*/
+@media(max-width: 300px) {
+    .card{
+        flex:1 0 50%;
+    }
+
+    h1, h2 {
+        padding: .5rem;
+        text-align: center;
+        font-weight: 800;
+    }
+
+    .aboutpage {
+        font-size: 18px;
+    }
+
+    .bottomtext, .toptext {
+        font-size: 15px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+
+    .nav-element {
+        padding-top: 1rem;
+    }
+
+    form.submit-journey {
+        padding: 1rem;
+    }
+}
+
+/*There are also extra large display screens, this
+media query is written to address it.*/
+@media (min-width: 1200px) {
+    .card {
+        flex:1 0 10%;
+    }
+    .bottomtext, .toptext {
+       font-size: 18px;
+    }
+
+    .card-title {
+        font-size: 40px;
+    }
+
+    .card-text, p-3.label {
+        font-size: 18px;
+    }
+}

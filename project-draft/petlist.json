@@ -1,0 +1,143 @@
+{
+    "listings": 
+    [{
+        "id": 1,
+        "petname": "Coco",
+        "pettype": "Dog",
+        "petbreed": "Beagle",
+        "image": "img/SampleCard1.jpg"
+    },
+    {
+        "id": 2,
+        "petname": "Jim",
+        "pettype": "Dog",
+        "petbreed": "Australian Shepherd",
+        "image": "img/SampleCard2.jpg"
+    },
+    {
+        "id": 3,
+        "petname": "Daisy",
+        "pettype": "Cat",
+        "petbreed": "Domestic Short Hair",
+        "image": "img/SampleCard3.jpg"
+    },
+    {
+        "id": 4,
+        "petname": "Kate",
+        "pettype": "Cat",
+        "petbreed": "Domesitc Short Hair",
+        "image": "img/SampleCard4.jpg"
+    },
+    {
+        "id": 5,
+        "petname": "Charlie",
+        "pettype": "Dog",
+        "petbreed": "Australian Shepherd",
+        "image": "img/SampleCard2.jpg"
+    },
+    {
+        "id": 6,
+        "petname": "Bella",
+        "pettype": "Dog",
+        "petbreed": "Maltese Poodle Mix",
+        "image": "img/SampleCard6.jpg"
+    },
+    {
+        "id": 7,
+        "petname": "Fluffy",
+        "pettype": "Cat",
+        "petbreed": "Domesitc Short Hair",
+        "image": "img/SampleCard4.jpg"
+    },
+    {
+        "id": 8,
+        "petname": "Stacy",
+        "pettype": "Dog",
+        "petbreed": "Shin Tzu",
+        "image": "img/SampleCard8.jpg"
+    },
+    {
+        "id": 9,
+        "petname": "Daisy",
+        "pettype": "Cat",
+        "petbreed": "British Short Hair",
+        "image": "img/SampleCard7.jpg"
+    },
+    {
+        "id": 10,
+        "petname": "Dave",
+        "pettype": "Dog",
+        "petbreed": "Beagle",
+        "image": "img/SampleCard1.jpg"
+    },
+    {
+        "id": 11,
+        "petname": "Bailey",
+        "pettype": "Cat",
+        "petbreed": "Ragdoll",
+        "image": "img/SampleCard5.jpg"
+    },
+    {
+        "id": 12,
+        "petname": "Kitty",
+        "pettype": "Cat",
+        "petbreed": "Domestic Short Hair",
+        "image": "img/SampleCard3.jpg"
+    },
+    {
+        "id": 13,
+        "petname": "McFLurry",
+        "pettype": "Cat",
+        "petbreed": "British Short Hair",
+        "image": "img/SampleCard7.jpg"
+    },
+    {
+        "id": 14,
+        "petname": "Kat",
+        "pettype": "Cat",
+        "petbreed": "Domestic Short Hair",
+        "image": "img/SampleCard3.jpg"
+    },
+    {
+        "id": 15,
+        "petname": "Melissa",
+        "pettype": "Dog",
+        "petbreed": "Maltese Poodle Mix",
+        "image": "img/SampleCard6.jpg"
+    },
+    {
+        "id": 16,
+        "petname": "Buddy",
+        "pettype": "Dog",
+        "petbreed": "Beagle",
+        "image": "img/SampleCard1.jpg"
+    },
+    {
+        "id": 17,
+        "petname": "Ethan",
+        "pettype": "Cat",
+        "petbreed": "British Short Hair",
+        "image": "img/SampleCard7.jpg"
+    },
+    {
+        "id": 18,
+        "petname": "Riley",
+        "pettype": "Cat",
+        "petbreed": "Ragdoll",
+        "image": "img/SampleCard5.jpg"
+    },
+    {
+        "id": 19,
+        "petname": "Leo",
+        "pettype": "Cat",
+        "petbreed": "Domestic Short Hair",
+        "image": "img/SampleCard3.jpg"
+    },
+    {
+        "id": 20,
+        "petname": "Danny",
+        "pettype": "Dog",
+        "petbreed": "Beagle",
+        "image": "img/SampleCard1.jpg"
+    }]
+}

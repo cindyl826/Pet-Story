@@ -1,0 +1,26 @@
+h1 {
+    font-family: 'Helvetica', sans-serif;
+    color: white;
+    background-color: rgb(16, 98, 190);
+    padding: 2em 1em;
+}
+
+h2 {
+    font-family: 'Helvetica', sans-serif;
+    padding-top: .5em;
+}
+
+h2, p {
+    margin: 8px;
+}
+
+p, li {
+    font-size: 22px;
+    margin-top: .5em;
+}
+
+body {
+    background-image: url("../img/puppy.png");
+    background-repeat: no-repeat;
+    background-size: 1400px 1200px;
+}
