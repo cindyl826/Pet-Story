@@ -4,7 +4,7 @@ Having a pet is popular among students, people who need companionship, or family
 
 Here're two of the existing attempts to solve the problem we're identifying:
 
-[Share your Personal Dog Experiences and Interactions](https://dogloverstore.com/share-personal-dog-experiences-interactions/)
+[Share your Personal Dog Experiences and Interactions](https://dogloverstore.com/share-personal-dog-experiences-interactions/)<br/>
 [Animal World-Pet and Animal Information](https://animal-world.com/)
 
 These two websites both have pages that allows pet owners to share their experience about their interactions with their pets. However, there is not enough participation, and the website does not have a sorting feature and is not organized nicely, so the information would be very messy to the users.
